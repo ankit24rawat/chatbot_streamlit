@@ -16,12 +16,12 @@ if not st.session_state['message_history']:
     st.title("Welcome to My AI Assistant! 👋")
     
     # You can use a URL for an image or a local file path
-    st.image("https://ui-avatars.com/api/?name=AI&background=random&size=128", width=100)
+    st.image("robot.png", width=100)
     
     st.markdown("""
     I am powered by **LangGraph** and **OpenAI**.  
     How can I help you today? Try asking:
-    * *'What is the weather in Paris?'*
+    * *'What is the capital of nepal?'*
     * *'Explain quantum physics like I'm five.'*
     """)
     # ----------------------------------------------------
